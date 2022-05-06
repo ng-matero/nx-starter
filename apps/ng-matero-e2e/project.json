@@ -1,0 +1,27 @@
+{
+  "sourceRoot": "apps/ng-matero-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/ng-matero-e2e/cypress.json",
+        "devServerTarget": "ng-matero:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "ng-matero:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/ng-matero-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["ng-matero"]
+}

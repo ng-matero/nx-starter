@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "ng-matero": "apps/ng-matero",
+    "ng-matero-e2e": "apps/ng-matero-e2e"
+  }
+}
