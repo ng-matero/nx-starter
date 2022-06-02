@@ -1,0 +1,40 @@
+@use '@angular/material' as mat;
+@use 'app-theme';
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+
+//
+// Light style
+//
+$primary: mat.define-palette(mat.$indigo-palette);
+$accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$theme: mat.define-light-theme($primary, $accent);
+
+//////////////////////////////////////////////////////////////////////////////////////
+// When we use the Schematics (`ng add`) to start, the following variables will be  //
+// used to create a dark theme! This strategy will not generate redundant codes.    //
+//////////////////////////////////////////////////////////////////////////////////////
+
+//
+// Dark style
+//
+// $primary: mat.define-palette(mat.$blue-palette, 700, 300, 900);
+// $accent:  mat.define-palette(mat.$amber-palette, A200, A100, A400);
+// $theme: mat.define-dark-theme($primary, $accent);
+
+$config: mat.define-typography-config();
+
+@include app-theme.theme($theme);
+
+//
+// Demo purposes only
+//
+.theme-dark {
+  $primary: mat.define-palette(mat.$blue-palette, 700, 300, 900);
+  $accent:  mat.define-palette(mat.$amber-palette, A200, A100, A400);
+  $theme: mat.define-dark-theme($primary, $accent);
+
+  @include app-theme.theme($theme);
+}

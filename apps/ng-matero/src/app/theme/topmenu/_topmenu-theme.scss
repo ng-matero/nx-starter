@@ -1,0 +1,25 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+
+@mixin theme($theme) {
+  $is-dark-theme: map.get($theme, is-dark);
+  $primary: map.get($theme, primary);
+  $accent: map.get($theme, accent);
+  $background: mat.get-color-from-palette($theme, background);
+  $foreground: mat.get-color-from-palette($theme, foreground);
+
+  .matero-topmenu {
+    color: mat.get-color-from-palette($foreground, text);
+    background: mat.get-color-from-palette($background, app-bar);
+
+    .mat-button {
+      &.active {
+        background-color: mat.get-color-from-palette($background, focused-button);
+      }
+    }
+  }
+
+  .mat-menu-item.active {
+    color: mat.get-color-from-palette($accent);
+  }
+}

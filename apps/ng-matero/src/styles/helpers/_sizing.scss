@@ -1,0 +1,18 @@
+@use 'sass:map';
+@use 'variables' as *;
+
+$utilities: map.merge(
+  (
+    'width': (
+      property: width,
+      class: w,
+      values: $sizes
+    ),
+    'height': (
+      property: height,
+      class: h,
+      values: $sizes
+    )
+  ),
+  $utilities
+);

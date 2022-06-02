@@ -13,7 +13,6 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "nxStarter",
             "style": "camelCase"
           }
         ],
@@ -21,7 +20,6 @@
           "error",
           {
             "type": "element",
-            "prefix": "nx-starter",
             "style": "kebab-case"
           }
         ]

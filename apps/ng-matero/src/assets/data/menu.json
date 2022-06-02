@@ -1,0 +1,480 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-500",
+        "value": "5"
+      }
+    },
+    {
+      "route": "design",
+      "name": "design",
+      "type": "sub",
+      "icon": "color_lens",
+      "children": [
+        {
+          "route": "colors",
+          "name": "colors",
+          "type": "link"
+        },
+        {
+          "route": "icons",
+          "name": "icons",
+          "type": "link"
+        }
+      ],
+      "permissions": {
+        "only": [
+          "ADMIN",
+          "MANAGER"
+        ]
+      }
+    },
+    {
+      "route": "material",
+      "name": "material",
+      "type": "sub",
+      "icon": "favorite",
+      "children": [
+        {
+          "route": "",
+          "name": "form-controls",
+          "type": "sub",
+          "children": [
+            {
+              "route": "autocomplete",
+              "name": "autocomplete",
+              "type": "link"
+            },
+            {
+              "route": "checkbox",
+              "name": "checkbox",
+              "type": "link"
+            },
+            {
+              "route": "datepicker",
+              "name": "datepicker",
+              "type": "link"
+            },
+            {
+              "route": "form-field",
+              "name": "form-field",
+              "type": "link"
+            },
+            {
+              "route": "input",
+              "name": "input",
+              "type": "link"
+            },
+            {
+              "route": "radio",
+              "name": "radio",
+              "type": "link"
+            },
+            {
+              "route": "select",
+              "name": "select",
+              "type": "link"
+            },
+            {
+              "route": "slider",
+              "name": "slider",
+              "type": "link"
+            },
+            {
+              "route": "slide-toggle",
+              "name": "slide-toggle",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "",
+          "name": "navigation",
+          "type": "sub",
+          "children": [
+            {
+              "route": "menu",
+              "name": "menu",
+              "type": "link"
+            },
+            {
+              "route": "sidenav",
+              "name": "sidenav",
+              "type": "link"
+            },
+            {
+              "route": "toolbar",
+              "name": "toolbar",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "",
+          "name": "layout",
+          "type": "sub",
+          "children": [
+            {
+              "route": "card",
+              "name": "card",
+              "type": "link"
+            },
+            {
+              "route": "divider",
+              "name": "divider",
+              "type": "link"
+            },
+            {
+              "route": "expansion",
+              "name": "expansion",
+              "type": "link"
+            },
+            {
+              "route": "grid-list",
+              "name": "grid-list",
+              "type": "link"
+            },
+            {
+              "route": "list",
+              "name": "list",
+              "type": "link"
+            },
+            {
+              "route": "stepper",
+              "name": "stepper",
+              "type": "link"
+            },
+            {
+              "route": "tab",
+              "name": "tab",
+              "type": "link"
+            },
+            {
+              "route": "tree",
+              "name": "tree",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "",
+          "name": "buttons-indicators",
+          "type": "sub",
+          "children": [
+            {
+              "route": "button",
+              "name": "button",
+              "type": "link"
+            },
+            {
+              "route": "button-toggle",
+              "name": "button-toggle",
+              "type": "link"
+            },
+            {
+              "route": "badge",
+              "name": "badge",
+              "type": "link"
+            },
+            {
+              "route": "chips",
+              "name": "chips",
+              "type": "link"
+            },
+            {
+              "route": "icon",
+              "name": "icon",
+              "type": "link"
+            },
+            {
+              "route": "progress-spinner",
+              "name": "progress-spinner",
+              "type": "link"
+            },
+            {
+              "route": "progress-bar",
+              "name": "progress-bar",
+              "type": "link"
+            },
+            {
+              "route": "ripple",
+              "name": "ripple",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "",
+          "name": "popups-modals",
+          "type": "sub",
+          "children": [
+            {
+              "route": "bottom-sheet",
+              "name": "bottom-sheet",
+              "type": "link"
+            },
+            {
+              "route": "dialog",
+              "name": "dialog",
+              "type": "link"
+            },
+            {
+              "route": "snack-bar",
+              "name": "snackbar",
+              "type": "link"
+            },
+            {
+              "route": "tooltip",
+              "name": "tooltip",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "data-table",
+          "name": "data-table",
+          "type": "sub",
+          "children": [
+            {
+              "route": "paginator",
+              "name": "paginator",
+              "type": "link"
+            },
+            {
+              "route": "sort",
+              "name": "sort",
+              "type": "link"
+            },
+            {
+              "route": "table",
+              "name": "table",
+              "type": "link"
+            }
+          ]
+        }
+      ],
+      "permissions": {
+        "except": [
+          "MANAGER",
+          "GUEST"
+        ]
+      }
+    },
+    {
+      "route": "permissions",
+      "name": "permissions",
+      "type": "sub",
+      "icon": "lock",
+      "label": {
+        "color": "indigo-500",
+        "value": "new"
+      },
+      "children": [
+        {
+          "route": "role-switching",
+          "name": "role-switching",
+          "type": "link"
+        },
+        {
+          "route": "route-guard",
+          "name": "route-guard",
+          "type": "link",
+          "permissions": {
+            "except": "GUEST"
+          }
+        },
+        {
+          "route": "test",
+          "name": "test",
+          "type": "link",
+          "permissions": {
+            "only": "ADMIN"
+          }
+        }
+      ]
+    },
+    {
+      "route": "media",
+      "name": "media",
+      "type": "sub",
+      "icon": "image",
+      "children": [
+        {
+          "route": "gallery",
+          "name": "gallery",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "forms",
+      "name": "forms",
+      "type": "sub",
+      "icon": "description",
+      "children": [
+        {
+          "route": "elements",
+          "name": "form-elements",
+          "type": "link"
+        },
+        {
+          "route": "dynamic",
+          "name": "dynamic-form",
+          "type": "link"
+        },
+        {
+          "route": "select",
+          "name": "select",
+          "type": "link"
+        },
+        {
+          "route": "datetime",
+          "name": "datetime",
+          "type": "link"
+        }
+      ],
+      "permissions": {
+        "except": "GUEST"
+      }
+    },
+    {
+      "route": "tables",
+      "name": "tables",
+      "type": "sub",
+      "icon": "format_line_spacing",
+      "children": [
+        {
+          "route": "kitchen-sink",
+          "name": "kitchen-sink",
+          "type": "link"
+        },
+        {
+          "route": "remote-data",
+          "name": "remote-data",
+          "type": "link"
+        }
+      ],
+      "permissions": {
+        "except": "GUEST"
+      }
+    },
+    {
+      "route": "profile",
+      "name": "profile",
+      "type": "sub",
+      "icon": "person",
+      "children": [
+        {
+          "route": "overview",
+          "name": "overview",
+          "type": "link"
+        },
+        {
+          "route": "settings",
+          "name": "settings",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "https://ng-matero.github.io/extensions/",
+      "name": "extensions",
+      "type": "extTabLink",
+      "icon": "extension",
+      "permissions": {
+        "only": "ADMIN"
+      }
+    },
+    {
+      "route": "/",
+      "name": "sessions",
+      "type": "sub",
+      "icon": "question_answer",
+      "children": [
+        {
+          "route": "403",
+          "name": "403",
+          "type": "link"
+        },
+        {
+          "route": "404",
+          "name": "404",
+          "type": "link"
+        },
+        {
+          "route": "500",
+          "name": "500",
+          "type": "link"
+        }
+      ],
+      "permissions": {
+        "only": "ADMIN"
+      }
+    },
+    {
+      "route": "helpers",
+      "name": "helpers",
+      "type": "sub",
+      "icon": "all_inbox",
+      "children": [
+        {
+          "route": "css-class",
+          "name": "css-class",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "menu-level",
+      "name": "menu-level",
+      "type": "sub",
+      "icon": "subject",
+      "children": [
+        {
+          "route": "level-1-1",
+          "name": "level-1-1",
+          "type": "sub",
+          "children": [
+            {
+              "route": "level-2-1",
+              "name": "level-2-1",
+              "type": "sub",
+              "children": [
+                {
+                  "route": "level-3-1",
+                  "name": "level-3-1",
+                  "type": "sub",
+                  "children": [
+                    {
+                      "route": "level-4-1",
+                      "name": "level-4-1",
+                      "type": "link"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "route": "level-2-2",
+              "name": "level-2-2",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "route": "level-1-2",
+          "name": "level-1-2",
+          "type": "link"
+        }
+      ],
+      "permissions": {
+        "only": "ADMIN"
+      }
+    }
+  ]
+}
