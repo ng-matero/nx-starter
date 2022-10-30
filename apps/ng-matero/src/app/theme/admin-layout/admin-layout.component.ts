@@ -74,7 +74,7 @@ export class AdminLayoutComponent implements OnDestroy {
     @Optional() @Inject(DOCUMENT) private document: Document,
     @Inject(Directionality) public dir: AppDirectionality
   ) {
-    this.dir.value = this.options.dir!;
+    this.dir.value = this.options.dir;
     this.document.body.dir = this.dir.value;
 
     this.layoutChangesSubscription = this.breakpointObserver
@@ -88,22 +88,15 @@ export class AdminLayoutComponent implements OnDestroy {
         this.isContentWidthFixed = state.breakpoints[MONITOR_MEDIAQUERY];
       });
 
-    this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe(e => {
+    this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe(() => {
       if (this.isOver) {
         this.sidenav.close();
       }
-
       this.content.scrollTo({ top: 0 });
     });
 
-    // Check whether the browser support `prefers-color-scheme`
-    if (this.mediaMatcher.matchMedia('(prefers-color-scheme)').media !== 'not all') {
-      const isSystemDark = this.mediaMatcher.matchMedia('(prefers-color-scheme: dark)').matches;
-      // Set theme to dark if `prefers-color-scheme` is dark. Otherwise, set it to light.
-      this.options.theme = isSystemDark ? 'dark' : 'light';
-    } else {
-      // If the browser does not support `prefers-color-scheme`, set the default to dark.
-      this.options.theme = 'light';
+    if (this.options.theme === 'auto') {
+      this.setAutoTheme();
     }
 
     // Initialize project theme with options
@@ -125,14 +118,26 @@ export class AdminLayoutComponent implements OnDestroy {
     setTimeout(() => this.settings.setOptions(this.options), timer);
   }
 
-  sidenavCloseStart() {
+  onSidenavClosedStart() {
     this.isContentWidthFixed = false;
   }
 
-  sidenavOpenedChange(isOpened: boolean) {
+  onSidenavOpenedChange(isOpened: boolean) {
     this.isCollapsedWidthFixed = !this.isOver;
     this.options.sidenavOpened = isOpened;
     this.settings.setOptions(this.options);
+  }
+
+  setAutoTheme() {
+    // Check whether the browser support `prefers-color-scheme`
+    if (this.mediaMatcher.matchMedia('(prefers-color-scheme)').media !== 'not all') {
+      const isSystemDark = this.mediaMatcher.matchMedia('(prefers-color-scheme: dark)').matches;
+      // Set theme to dark if `prefers-color-scheme` is dark. Otherwise, set it to light.
+      this.options.theme = isSystemDark ? 'dark' : 'light';
+    } else {
+      // If the browser does not support `prefers-color-scheme`, set the default to light.
+      this.options.theme = 'light';
+    }
   }
 
   // Demo purposes only
@@ -154,7 +159,7 @@ export class AdminLayoutComponent implements OnDestroy {
   }
 
   toggleDirection(options: AppSettings) {
-    this.dir.value = options.dir!;
+    this.dir.value = options.dir;
     this.document.body.dir = this.dir.value;
   }
 }

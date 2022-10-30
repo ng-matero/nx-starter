@@ -6,8 +6,15 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
+        "allowedCommonJsDependencies": [
+          "base64-js",
+          "moment",
+          "photoviewer"
+        ],
         "outputPath": "dist/apps/ng-matero",
         "index": "apps/ng-matero/src/index.html",
         "main": "apps/ng-matero/src/main.ts",
@@ -18,8 +25,12 @@
           "apps/ng-matero/src/favicon.ico",
           "apps/ng-matero/src/assets"
         ],
-        "styles": ["apps/ng-matero/src/styles.scss"],
-        "scripts": []
+        "styles": [
+          "apps/ng-matero/src/styles.scss"
+        ],
+        "scripts": [
+          "node_modules/apexcharts/dist/apexcharts.min.js"
+        ]
       },
       "configurations": {
         "production": {
@@ -83,7 +94,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/ng-matero"],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/ng-matero"
+      ],
       "options": {
         "jestConfig": "apps/ng-matero/jest.config.ts",
         "passWithNoTests": true
