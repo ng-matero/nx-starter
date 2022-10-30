@@ -32,7 +32,8 @@
       "@testing/*": ["testing/*"],
       "@env": ["environments"],
       "@env/*": ["environments/*"]
-    }
+    },
+    "target": "es2020"
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,

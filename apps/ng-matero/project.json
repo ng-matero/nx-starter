@@ -1,4 +1,5 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/ng-matero/src",
   "prefix": "nx-starter",
@@ -82,7 +83,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/ng-matero"],
+      "outputs": ["{workspaceRoot}/coverage/apps/ng-matero"],
       "options": {
         "jestConfig": "apps/ng-matero/jest.config.ts",
         "passWithNoTests": true
