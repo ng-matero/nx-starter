@@ -18,7 +18,9 @@
         "outputPath": "dist/apps/ng-matero",
         "index": "apps/ng-matero/src/index.html",
         "main": "apps/ng-matero/src/main.ts",
-        "polyfills": "apps/ng-matero/src/polyfills.ts",
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/ng-matero/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
@@ -37,13 +39,13 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "500kb",
-              "maximumError": "1mb"
+              "maximumWarning": "2mb",
+              "maximumError": "5mb"
             },
             {
               "type": "anyComponentStyle",
-              "maximumWarning": "2kb",
-              "maximumError": "4kb"
+              "maximumWarning": "4kb",
+              "maximumError": "10kb"
             }
           ],
           "fileReplacements": [

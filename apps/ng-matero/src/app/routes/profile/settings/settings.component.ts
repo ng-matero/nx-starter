@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { ControlsOf, IProfile } from '../interface';
 
 @Component({
   selector: 'app-profile-settings',
   templateUrl: './settings.component.html',
+  styleUrls: ['./settings.component.scss'],
 })
-export class ProfileSettingsComponent implements OnInit {
+export class ProfileSettingsComponent {
   reactiveForm: FormGroup<ControlsOf<IProfile>>;
 
   constructor(private fb: FormBuilder) {
@@ -23,8 +24,6 @@ export class ProfileSettingsComponent implements OnInit {
       date: ['', [Validators.required]],
     });
   }
-
-  ngOnInit() {}
 
   getErrorMessage(form: FormGroup) {
     return form.get('email')?.hasError('required')

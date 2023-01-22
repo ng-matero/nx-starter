@@ -49,13 +49,13 @@ const routes: Routes = [
         loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule),
       },
       {
-        path: 'helpers',
-        loadChildren: () => import('./helpers/helpers.module').then(m => m.HelpersModule),
-      },
-      {
         path: 'permissions',
         loadChildren: () =>
           import('./permissions/permissions.module').then(m => m.PermissionsModule),
+      },
+      {
+        path: 'utilities',
+        loadChildren: () => import('./utilities/utilities.module').then(m => m.UtilitiesModule),
       },
     ],
   },
@@ -73,8 +73,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-    useHash: environment.useHash
-}),
+      useHash: environment.useHash,
+    }),
   ],
   exports: [RouterModule],
 })
