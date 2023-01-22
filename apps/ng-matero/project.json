@@ -103,5 +103,6 @@
       }
     }
   },
-  "tags": []
+  "tags": [],
+  "name": "ng-matero"
 }

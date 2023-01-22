@@ -73,9 +73,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-      useHash: environment.useHash,
-      relativeLinkResolution: 'legacy',
-    }),
+    useHash: environment.useHash
+}),
   ],
   exports: [RouterModule],
 })
