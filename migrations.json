@@ -5,7 +5,7 @@
       "description": "Split global configuration files into individual project.json files. This migration has been added automatically to the beginning of your migration set to retroactively make them work with the new version of Nx.",
       "cli": "nx",
       "implementation": "./src/migrations/update-15-7-0/split-configuration-into-project-json-files",
-      "package": "@nrwl/workspace",
+      "package": "@nx/workspace",
       "name": "15-7-0-split-configuration-into-project-json-files"
     },
     {
@@ -43,9 +43,9 @@
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/workspace with @nx/workspace",
+      "description": "Replace @nx/workspace with @nx/workspace",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/workspace",
+      "package": "@nx/workspace",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
@@ -53,7 +53,7 @@
       "description": "Generates a plugin called 'workspace-plugin' containing your workspace generators.",
       "cli": "nx",
       "implementation": "./src/migrations/update-16-0-0/move-workspace-generators-to-local-plugin",
-      "package": "@nrwl/workspace",
+      "package": "@nx/workspace",
       "name": "16-0-0-move-workspace-generators-into-local-plugin"
     },
     {
@@ -61,15 +61,15 @@
       "description": "Fix .babelrc presets if it contains an invalid entry for @nx/web/babel.",
       "cli": "nx",
       "implementation": "./src/migrations/update-16-0-0/fix-invalid-babelrc",
-      "package": "@nrwl/workspace",
+      "package": "@nx/workspace",
       "name": "16-0-0-fix-invalid-babelrc"
     },
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/cypress with @nx/cypress",
+      "description": "Replace @nx/cypress with @nx/cypress",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/cypress",
+      "package": "@nx/cypress",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
@@ -77,7 +77,7 @@
       "version": "16.2.0-beta.0",
       "description": "Normalize tsconfig.cy.json files to be located at '<projectRoot>/cypress/tsconfig.json'",
       "implementation": "./src/migrations/update-16-2-0/update-cy-tsconfig",
-      "package": "@nrwl/cypress",
+      "package": "@nx/cypress",
       "name": "update-16-2-0-normalize-tsconfigs"
     },
     {
@@ -85,7 +85,7 @@
       "version": "16.4.0-beta.10",
       "description": "Remove tsconfig.e2e.json and add settings to project tsconfig.json. tsConfigs executor option is now deprecated. The project level tsconfig.json file should be used instead.",
       "implementation": "./src/migrations/update-16-4-0/tsconfig-sourcemaps",
-      "package": "@nrwl/cypress",
+      "package": "@nx/cypress",
       "name": "update-16-3-0-remove-old-tsconfigs"
     },
     {
@@ -93,31 +93,31 @@
       "version": "16.4.0-beta.11",
       "description": "Cypress Component Testing is broken with Angular 16.1.0. Warn about it if the workspace has Angular >= 16.1.0 and Angular projects using Component Testing.",
       "implementation": "./src/migrations/update-16-4-0/warn-incompatible-angular-cypress",
-      "package": "@nrwl/cypress",
+      "package": "@nx/cypress",
       "name": "update-16-4-0-warn-incompatible-angular-cypress"
     },
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/linter with @nx/linter",
+      "description": "Replace @nx/linter with @nx/linter",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/linter",
+      "package": "@nx/linter",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/eslint-plugin-nx with @nx/eslint-plugin",
+      "description": "Replace @nx/eslint-plugin with @nx/eslint-plugin",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/eslint-plugin-nx",
+      "package": "@nx/eslint-plugin",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/jest with @nx/jest",
+      "description": "Replace @nx/jest with @nx/jest",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/jest",
+      "package": "@nx/jest",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
@@ -125,15 +125,15 @@
       "version": "16.0.0-beta.1",
       "description": "Replace the deprecated library generator 'simpleModuleName' option from generator defaults with 'simpleName'",
       "factory": "./src/migrations/update-16-0-0/remove-library-generator-simple-module-name-option",
-      "package": "@nrwl/angular",
+      "package": "@nx/angular",
       "name": "remove-library-generator-simple-module-name-option"
     },
     {
       "cli": "nx",
       "version": "16.0.0-beta.1",
-      "description": "Replace @nrwl/angular with @nx/angular",
+      "description": "Replace @nx/angular with @nx/angular",
       "implementation": "./src/migrations/update-16-0-0-add-nx-packages/update-16-0-0-add-nx-packages",
-      "package": "@nrwl/angular",
+      "package": "@nx/angular",
       "name": "update-16-0-0-add-nx-packages"
     },
     {
@@ -141,7 +141,7 @@
       "version": "16.0.0-beta.6",
       "description": "Remove protractor as default e2eTestRunner from nxJson and project configurations",
       "implementation": "./src/migrations/update-16-0-0/remove-protractor-defaults",
-      "package": "@nrwl/angular",
+      "package": "@nx/angular",
       "name": "remove-protractor-defaults-from-generators"
     },
     {
@@ -149,7 +149,7 @@
       "version": "16.0.0-beta.6",
       "description": "Remove karma as default unitTestRunner from nxJson and project configurations",
       "implementation": "./src/migrations/update-16-0-0/remove-karma-defaults",
-      "package": "@nrwl/angular",
+      "package": "@nx/angular",
       "name": "remove-karma-defaults-from-generators"
     },
     {
@@ -160,7 +160,7 @@
       },
       "description": "Remove exported `@angular/platform-server` `renderModule` method. The `renderModule` method is now exported by the Angular CLI.",
       "factory": "./src/migrations/update-16-1-0/remove-render-module-platform-server-exports",
-      "package": "@nrwl/angular",
+      "package": "@nx/angular",
       "name": "remove-render-module-platform-server-exports"
     }
   ]
