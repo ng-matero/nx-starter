@@ -9,10 +9,10 @@ import { MtxDialogModule } from '@ng-matero/extensions/dialog';
 import { MtxDrawerModule } from '@ng-matero/extensions/drawer';
 import { MtxGridModule } from '@ng-matero/extensions/grid';
 import { MtxLoaderModule } from '@ng-matero/extensions/loader';
+import { MtxPhotoviewerModule } from '@ng-matero/extensions/photoviewer';
 import { MtxPopoverModule } from '@ng-matero/extensions/popover';
 import { MtxProgressModule } from '@ng-matero/extensions/progress';
 import { MtxSelectModule } from '@ng-matero/extensions/select';
-import { MtxSliderModule } from '@ng-matero/extensions/slider';
 import { MtxSplitModule } from '@ng-matero/extensions/split';
 import { MtxTooltipModule } from '@ng-matero/extensions/tooltip';
 import { MTX_DATETIME_FORMATS } from '@ng-matero/extensions/core';
@@ -29,10 +29,10 @@ import { MtxMomentDatetimeModule } from '@ng-matero/extensions-moment-adapter';
     MtxDrawerModule,
     MtxGridModule,
     MtxLoaderModule,
+    MtxPhotoviewerModule,
     MtxPopoverModule,
     MtxProgressModule,
     MtxSelectModule,
-    MtxSliderModule,
     MtxSplitModule,
     MtxTooltipModule,
     MtxMomentDatetimeModule, // <= You can import the other adapter you need (e.g. luxon, date-fns)
