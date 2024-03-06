@@ -6,13 +6,13 @@
   "prefix": "nx-starter",
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:browser",
+      "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
         "allowedCommonJsDependencies": ["base64-js", "moment", "photoviewer"],
         "outputPath": "dist/apps/ng-matero",
         "index": "apps/ng-matero/src/index.html",
-        "main": "apps/ng-matero/src/main.ts",
+        "browser": "apps/ng-matero/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/ng-matero/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
@@ -43,12 +43,9 @@
           "outputHashing": "all"
         },
         "development": {
-          "buildOptimizer": false,
           "optimization": false,
-          "vendorChunk": true,
           "extractLicenses": false,
-          "sourceMap": true,
-          "namedChunks": true
+          "sourceMap": true
         }
       },
       "defaultConfiguration": "production"
