@@ -33,7 +33,10 @@
       "@env": ["environments"],
       "@env/*": ["environments/*"]
     },
-    "target": "es2020"
+    "target": "ES2022",
+    "useDefineForClassFields": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
