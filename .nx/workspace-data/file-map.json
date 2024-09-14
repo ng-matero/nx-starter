@@ -1,0 +1,2359 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.7.3",
+  "deps": {
+    "@angular/animations": "^18.2.4",
+    "@angular/cdk": "^18.2.4",
+    "@angular/common": "^18.2.4",
+    "@angular/compiler": "^18.2.4",
+    "@angular/core": "^18.2.4",
+    "@angular/forms": "^18.2.4",
+    "@angular/material": "^18.2.4",
+    "@angular/material-moment-adapter": "^18.2.4",
+    "@angular/platform-browser": "^18.2.4",
+    "@angular/platform-browser-dynamic": "^18.2.4",
+    "@angular/router": "^18.2.4",
+    "@ng-matero/extensions": "^18.2.0",
+    "@ng-matero/extensions-moment-adapter": "^18.0.0",
+    "@ngx-formly/core": "^6.3.6",
+    "@ngx-formly/material": "^6.3.6",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "@nx/angular": "^19.7.3",
+    "angular-in-memory-web-api": "~0.18.0",
+    "apexcharts": "^3.51.0",
+    "moment": "^2.30.0",
+    "ngx-permissions": "^17.1.0",
+    "ngx-progressbar": "^12.0.0",
+    "ngx-toastr": "^19.0.0",
+    "photoviewer": "^3.10.0",
+    "rxjs": "~7.8.0",
+    "screenfull": "^6.0.2",
+    "tslib": "^2.6.0",
+    "zone.js": "~0.14.4",
+    "@angular-devkit/build-angular": "^18.2.4",
+    "@angular-eslint/eslint-plugin": "^18.3.1",
+    "@angular-eslint/eslint-plugin-template": "^18.3.1",
+    "@angular-eslint/template-parser": "^18.3.1",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^18.2.4",
+    "@nx/cypress": "^19.7.3",
+    "@nx/eslint": "^19.7.3",
+    "@nx/eslint-plugin": "^19.7.3",
+    "@nx/jest": "^19.7.3",
+    "@nx/workspace": "^19.7.3",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "cypress": "^9.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-preset-angular": "^14.1.1",
+    "nx": "^19.7.3",
+    "prettier": "^3.2.4",
+    "stylelint": "^16.5.0",
+    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "~10.9.1",
+    "typescript": "~5.5.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".env",
+        "hash": "5238204894158769644"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "7757044114985102045"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3813540031223462325"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "9175937087874081623"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "15812862659815207948"
+      },
+      {
+        "file": ".stylelintrc",
+        "hash": "17656763241345974405"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "15904881119927760751"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "8990071417759709452"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "12554071923502961312"
+      },
+      {
+        "file": "README.md",
+        "hash": "7162553923701991737"
+      },
+      {
+        "file": "decorate-angular-cli.js",
+        "hash": "10524623638895575320"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "10692344265727502540"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "2492943374799685122"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4226492090167123047"
+      },
+      {
+        "file": "package.json",
+        "hash": "3296932297443738877"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8655973949720292429"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5009174986753087517"
+      }
+    ],
+    "projectFileMap": {
+      "ng-matero": [
+        {
+          "file": "apps/ng-matero/.eslintrc.json",
+          "hash": "2996386803528140713"
+        },
+        {
+          "file": "apps/ng-matero/jest.config.ts",
+          "hash": "9666571612806193470"
+        },
+        {
+          "file": "apps/ng-matero/project.json",
+          "hash": "14869837250415118856"
+        },
+        {
+          "file": "apps/ng-matero/public/data/dashboard.json",
+          "hash": "8683842174289143346"
+        },
+        {
+          "file": "apps/ng-matero/public/data/menu.json",
+          "hash": "9487116009080052018"
+        },
+        {
+          "file": "apps/ng-matero/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/ng-matero/public/fonts/Material_Icons.css",
+          "hash": "6123139781935911229"
+        },
+        {
+          "file": "apps/ng-matero/public/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+          "hash": "12756772825413854277"
+        },
+        {
+          "file": "apps/ng-matero/public/i18n/en-US.json",
+          "hash": "3491205665781756912"
+        },
+        {
+          "file": "apps/ng-matero/public/i18n/zh-CN.json",
+          "hash": "9592134813155786137"
+        },
+        {
+          "file": "apps/ng-matero/public/i18n/zh-TW.json",
+          "hash": "15890421603602304090"
+        },
+        {
+          "file": "apps/ng-matero/public/images/avatar-default.jpg",
+          "hash": "11951145132484341288"
+        },
+        {
+          "file": "apps/ng-matero/public/images/avatar.jpg",
+          "hash": "9374334106501623509"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/1.jpg",
+          "hash": "13381482486193577133"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/10.jpg",
+          "hash": "17813710992341132127"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/11.jpg",
+          "hash": "5528737919608222742"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/12.jpg",
+          "hash": "10135239698022356947"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/13.jpg",
+          "hash": "5628419246720471443"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/14.jpg",
+          "hash": "11258478253061416998"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/15.jpg",
+          "hash": "3699710401688186730"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/2.jpg",
+          "hash": "7160994193019420577"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/3.jpg",
+          "hash": "15174116637634875454"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/4.jpg",
+          "hash": "5997765228891205683"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/5.jpg",
+          "hash": "9264556142469941677"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/6.jpg",
+          "hash": "14414152102681693344"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/7.jpg",
+          "hash": "15467026175283945317"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/8.jpg",
+          "hash": "7862205792651877460"
+        },
+        {
+          "file": "apps/ng-matero/public/images/heros/9.jpg",
+          "hash": "2652558689458810983"
+        },
+        {
+          "file": "apps/ng-matero/public/images/matero.png",
+          "hash": "10534165221419427737"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/1.jpg",
+          "hash": "6328011434059973599"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/10.jpg",
+          "hash": "12593618291817017339"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/11.jpg",
+          "hash": "7244993432893457932"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/12.jpg",
+          "hash": "267683827551553548"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/13.jpg",
+          "hash": "1362758825235518064"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/14.jpg",
+          "hash": "9531968221355469892"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/15.jpg",
+          "hash": "6496293768534146781"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/16.jpg",
+          "hash": "10582132544586975456"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/17.jpg",
+          "hash": "8369842631770925099"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/18.jpg",
+          "hash": "1590528567112603504"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/19.jpg",
+          "hash": "16550277840653485004"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/2.jpg",
+          "hash": "12690573890517944451"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/20.jpg",
+          "hash": "1659474306105584936"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/3.jpg",
+          "hash": "18282633466656781423"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/4.jpg",
+          "hash": "4627560670798494158"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/5.jpg",
+          "hash": "3596402395320516509"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/6.jpg",
+          "hash": "1764428869393391404"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/7.jpg",
+          "hash": "10784110550652480257"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/8.jpg",
+          "hash": "5503819137276624811"
+        },
+        {
+          "file": "apps/ng-matero/public/images/pixabay/9.jpg",
+          "hash": "986544301121473664"
+        },
+        {
+          "file": "apps/ng-matero/src/app/app.component.ts",
+          "hash": "9909676083793725752",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/app.config.ts",
+          "hash": "5709984391342393800",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:@ngx-translate/http-loader",
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/app.routes.ts",
+          "hash": "8588492187157959658",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/README.md",
+          "hash": "14731361699927160840"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/auth.guard.spec.ts",
+          "hash": "15458490455002004554",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/auth.guard.ts",
+          "hash": "17040133827932186022",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/auth.service.spec.ts",
+          "hash": "1131316393666052730",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/auth.service.ts",
+          "hash": "16192695279140932087",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/helpers.ts",
+          "hash": "9991503916413291970",
+          "deps": [
+            "npm:base64-js"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/index.ts",
+          "hash": "10955523240438222771"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/interface.ts",
+          "hash": "5913902448325056568"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/login.service.ts",
+          "hash": "2562888542290466628",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/token-factory.service.ts",
+          "hash": "13960610020896593110",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/token.service.spec.ts",
+          "hash": "7781117275612881686",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/token.service.ts",
+          "hash": "16946837326360734796",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/token.spec.ts",
+          "hash": "10572065558223307088"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/token.ts",
+          "hash": "12888468403927766553"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/authentication/user.ts",
+          "hash": "10755244630080891488"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/README.md",
+          "hash": "15176980004658384278"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/index.ts",
+          "hash": "17555412904980628552",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/menu.service.ts",
+          "hash": "3211571692696235624",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/preloader.service.ts",
+          "hash": "2156382407869780988",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/settings.service.ts",
+          "hash": "13701052057011174384",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/startup.service.spec.ts",
+          "hash": "7118705741575766525",
+          "deps": [
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/startup.service.ts",
+          "hash": "725083150146015171",
+          "deps": [
+            "npm:ngx-permissions",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/bootstrap/translate-lang.service.ts",
+          "hash": "5320877581634582978",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/index.ts",
+          "hash": "6402791195411512378"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/README.md",
+          "hash": "12220573966286348736"
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/api-interceptor.ts",
+          "hash": "11351437017590290331",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/base-url-interceptor.spec.ts",
+          "hash": "15425189280029747714",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/base-url-interceptor.ts",
+          "hash": "6084877998634930747",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/error-interceptor.spec.ts",
+          "hash": "15899219009820411497",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:ngx-toastr"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/error-interceptor.ts",
+          "hash": "11692930938298090324",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/index.ts",
+          "hash": "9559989937025537656",
+          "deps": [
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/logging-interceptor.ts",
+          "hash": "3722130975526702798",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/noop-interceptor.ts",
+          "hash": "7299143744184121449",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/settings-interceptor.spec.ts",
+          "hash": "10038384466698566826",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/settings-interceptor.ts",
+          "hash": "18357030197727372775",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/token-interceptor.spec.ts",
+          "hash": "11849185279517058235",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:angular-in-memory-web-api"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/interceptors/token-interceptor.ts",
+          "hash": "2258834814178150852",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/core/settings.ts",
+          "hash": "15260672654509612889"
+        },
+        {
+          "file": "apps/ng-matero/src/app/formly-config.ts",
+          "hash": "1196208960734767567",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/formly-templates.ts",
+          "hash": "14128807469502142459",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ng-matero/extensions",
+            "npm:@ngx-formly/core",
+            "npm:@ngx-formly/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/formly-wrappers.ts",
+          "hash": "7975334030760074775",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngx-formly/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/dashboard/dashboard.component.html",
+          "hash": "10457254038723911371"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/dashboard/dashboard.component.scss",
+          "hash": "16816839631692168690"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/dashboard/dashboard.component.ts",
+          "hash": "7400207689436571163",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/dashboard/dashboard.service.ts",
+          "hash": "12909016252244798659",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:apexcharts"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/colors/colors.component.html",
+          "hash": "6309255316975034141"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/colors/colors.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/colors/colors.component.ts",
+          "hash": "17657342773667424001",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/design.routes.ts",
+          "hash": "2145008797592457775",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/icons/icons.component.html",
+          "hash": "9821172645743466522"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/icons/icons.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/design/icons/icons.component.ts",
+          "hash": "5080211672919718116",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/data.service.ts",
+          "hash": "14158792051824624388",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/datetime/datetime.component.html",
+          "hash": "1169532909822775649"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/datetime/datetime.component.scss",
+          "hash": "8376740660795886379"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/datetime/datetime.component.ts",
+          "hash": "12231316002170165036",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/dynamic/dynamic.component.html",
+          "hash": "9574846635092825433"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/dynamic/dynamic.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/dynamic/dynamic.component.ts",
+          "hash": "9007888847677117117",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngx-formly/core",
+            "npm:ngx-toastr",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/elements/elements.component.html",
+          "hash": "10052781793723160802"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/elements/elements.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/elements/elements.component.ts",
+          "hash": "7215569448293047932",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/forms.routes.ts",
+          "hash": "16141394886740428558",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/edit/edit.component.html",
+          "hash": "3574466139878344680"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/edit/edit.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/edit/edit.component.ts",
+          "hash": "15475124734460559221",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material",
+            "npm:@ng-matero/extensions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/select.component.html",
+          "hash": "4833870325570223056"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/select.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/forms/select/select.component.ts",
+          "hash": "5706240335047926842",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/autocomplete/autocomplete.component.html",
+          "hash": "13911572069363193830"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/autocomplete/autocomplete.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/autocomplete/autocomplete.component.ts",
+          "hash": "14236469534263098920",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/badge/badge.component.html",
+          "hash": "9970042554658264623"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/badge/badge.component.scss",
+          "hash": "6524739960646628463"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/badge/badge.component.ts",
+          "hash": "7075456007554724745",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/bottom-sheet/bottom-sheet.component.html",
+          "hash": "1742602554015125022"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/bottom-sheet/bottom-sheet.component.scss",
+          "hash": "818948198815325752"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/bottom-sheet/bottom-sheet.component.ts",
+          "hash": "13952372867262939500",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button-toggle/button-toggle.component.html",
+          "hash": "610003423702402005"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button-toggle/button-toggle.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button-toggle/button-toggle.component.ts",
+          "hash": "7958297808528280073",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button/button.component.html",
+          "hash": "6913292097645727080"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button/button.component.scss",
+          "hash": "9362850805597506508"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/button/button.component.ts",
+          "hash": "639685812369519902",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/card/card.component.html",
+          "hash": "3466874154735959704"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/card/card.component.scss",
+          "hash": "6944557164970072022"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/card/card.component.ts",
+          "hash": "11163027121459930592",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/checkbox/checkbox.component.html",
+          "hash": "5612915259598013827"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/checkbox/checkbox.component.scss",
+          "hash": "17627201393814107244"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/checkbox/checkbox.component.ts",
+          "hash": "6626128765238687812",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/chips/chips.component.html",
+          "hash": "898543620761520690"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/chips/chips.component.scss",
+          "hash": "9358407022137281378"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/chips/chips.component.ts",
+          "hash": "10879041327958212833",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/datepicker/datepicker.component.html",
+          "hash": "6112356574697581193"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/datepicker/datepicker.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/datepicker/datepicker.component.ts",
+          "hash": "5003293307859205848",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog-address-form.html",
+          "hash": "7944578399810282911"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog-fruit.html",
+          "hash": "9752774370270801874"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog-neptune-iframe.html",
+          "hash": "17019911146117262978"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog-neptune.html",
+          "hash": "4821681524021291746"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog-welcome.html",
+          "hash": "13825800562782803517"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog.component.html",
+          "hash": "14046022905483519661"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/dialog/dialog.component.ts",
+          "hash": "3171203693634174439",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/divider/divider.component.html",
+          "hash": "252774985476984487"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/divider/divider.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/divider/divider.component.ts",
+          "hash": "16608358182131717462",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/expansion-panel/expansion-panel.component.html",
+          "hash": "4599551446615932668"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/expansion-panel/expansion-panel.component.scss",
+          "hash": "14208692593671771030"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/expansion-panel/expansion-panel.component.ts",
+          "hash": "5930606154455476380",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/form-field/form-field.component.html",
+          "hash": "8335398189175377416"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/form-field/form-field.component.scss",
+          "hash": "1580608820078533539"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/form-field/form-field.component.ts",
+          "hash": "10086482586734760760",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/grid-list/grid-list.component.html",
+          "hash": "8362337085222045373"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/grid-list/grid-list.component.scss",
+          "hash": "2846741314339895850"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/grid-list/grid-list.component.ts",
+          "hash": "14901265659943424394",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/icon/icon.component.html",
+          "hash": "3071617792912814605"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/icon/icon.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/icon/icon.component.ts",
+          "hash": "14731128927219968725",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/input/input.component.html",
+          "hash": "14939197005965461139"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/input/input.component.scss",
+          "hash": "13091688380378063636"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/input/input.component.ts",
+          "hash": "15504328258728358632",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/list/list.component.html",
+          "hash": "17996754519809504492"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/list/list.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/list/list.component.ts",
+          "hash": "10397698633913209747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/material.routes.ts",
+          "hash": "12074425601592976684",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/menu/menu.component.html",
+          "hash": "15531696662308968351"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/menu/menu.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/menu/menu.component.ts",
+          "hash": "8735052031870563805",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/paginator/paginator.component.html",
+          "hash": "2229832143721559393"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/paginator/paginator.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/paginator/paginator.component.ts",
+          "hash": "9723636571956748308",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-bar/progress-bar.component.html",
+          "hash": "17087935010692016874"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-bar/progress-bar.component.scss",
+          "hash": "7646264176314104499"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-bar/progress-bar.component.ts",
+          "hash": "6338403263575789877",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-spinner/progress-spinner.component.html",
+          "hash": "5101305636281830747"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-spinner/progress-spinner.component.scss",
+          "hash": "7646264176314104499"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/progress-spinner/progress-spinner.component.ts",
+          "hash": "7970114930188458420",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/radio-button/radio-button.component.html",
+          "hash": "8523047707033099057"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/radio-button/radio-button.component.scss",
+          "hash": "5053059520480168120"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/radio-button/radio-button.component.ts",
+          "hash": "75531939146448780",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/ripple/ripple.component.html",
+          "hash": "9880066829668470746"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/ripple/ripple.component.scss",
+          "hash": "6215127140911027579"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/ripple/ripple.component.ts",
+          "hash": "12469835028358514218",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/select/select.component.html",
+          "hash": "17222651796517478739"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/select/select.component.scss",
+          "hash": "13800943247277865735"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/select/select.component.ts",
+          "hash": "16365346216488427793",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/basic-sidenav.html",
+          "hash": "13934425091996781113"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/basic-sidenav.ts",
+          "hash": "18225075510749291089",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/dual-sidenav.html",
+          "hash": "10236734411412867728"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/dual-sidenav.scss",
+          "hash": "16735921546320095632"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/dual-sidenav.ts",
+          "hash": "14637125774080953085",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/mobile-sidenav.html",
+          "hash": "5857131749855451131"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/mobile-sidenav.scss",
+          "hash": "2262357196591804312"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/mobile-sidenav.ts",
+          "hash": "13904294080854921731",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/shared.scss",
+          "hash": "6631263275487689523"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/sidenav.component.html",
+          "hash": "8731637162889584087"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sidenav/sidenav.component.ts",
+          "hash": "13715898552977034737",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slide-toggle/slide-toggle.component.html",
+          "hash": "4997525405693637633"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slide-toggle/slide-toggle.component.scss",
+          "hash": "6826273827847754957"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slide-toggle/slide-toggle.component.ts",
+          "hash": "10856036187316006479",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slider/slider.component.html",
+          "hash": "279716747391434949"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slider/slider.component.scss",
+          "hash": "3002660086968170963"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/slider/slider.component.ts",
+          "hash": "18336516414702814365",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/snack-bar/snack-bar.component.html",
+          "hash": "5055865140888773849"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/snack-bar/snack-bar.component.scss",
+          "hash": "3473437852904197481"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/snack-bar/snack-bar.component.ts",
+          "hash": "16132189780275819161",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sort/sort.component.html",
+          "hash": "7327942206973674306"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sort/sort.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/sort/sort.component.ts",
+          "hash": "11434374258848358872",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/stepper/stepper.component.html",
+          "hash": "8916677789733254206"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/stepper/stepper.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/stepper/stepper.component.ts",
+          "hash": "5956381278667236431",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tab/routes.ts",
+          "hash": "4485765762792789695",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tab/tab.component.html",
+          "hash": "3622525281416923366"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tab/tab.component.scss",
+          "hash": "1565792543605474200"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tab/tab.component.ts",
+          "hash": "14908863595811272734",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/table/table.component.html",
+          "hash": "3637708025628919284"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/table/table.component.scss",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/table/table.component.ts",
+          "hash": "18133716005572562265",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/toolbar/toolbar.component.html",
+          "hash": "5691500406895231597"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/toolbar/toolbar.component.scss",
+          "hash": "4218631843031635313"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/toolbar/toolbar.component.ts",
+          "hash": "15510104919213994908",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tooltip/tooltip.component.html",
+          "hash": "8303475214824419052"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tooltip/tooltip.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tooltip/tooltip.component.ts",
+          "hash": "16871326008084756607",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tree/tree.component.html",
+          "hash": "12645119969125668105"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tree/tree.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/material/tree/tree.component.ts",
+          "hash": "42074670362029258",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/media/gallery/gallery.component.html",
+          "hash": "4796266526405380987"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/media/gallery/gallery.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/media/gallery/gallery.component.ts",
+          "hash": "10843237760801318417",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@ng-matero/extensions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/media/media.routes.ts",
+          "hash": "16562019505418042282",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/permissions.routes.ts",
+          "hash": "1144814968050547098",
+          "deps": [
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/role-switching/role-switching.component.html",
+          "hash": "17838920855795072102"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/role-switching/role-switching.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/role-switching/role-switching.component.ts",
+          "hash": "4405073591945424725",
+          "deps": [
+            "npm:ngx-permissions",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/route-guard/route-guard.component.html",
+          "hash": "6762691882278210956"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/route-guard/route-guard.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/route-guard/route-guard.component.ts",
+          "hash": "2813271870514471228",
+          "deps": [
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/test/test.component.html",
+          "hash": "15151581475083068561"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/test/test.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/permissions/test/test.component.ts",
+          "hash": "3363357580799802059",
+          "deps": [
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/layout/layout.component.html",
+          "hash": "3423568303753518599"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/layout/layout.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/layout/layout.component.ts",
+          "hash": "1968966265302565629",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/overview/overview.component.html",
+          "hash": "7094589618638782393"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/overview/overview.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/overview/overview.component.ts",
+          "hash": "12935836636368870917",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/profile.routes.ts",
+          "hash": "10950087522104866304",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/settings/settings.component.html",
+          "hash": "14691103469596781227"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/settings/settings.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/profile/settings/settings.component.ts",
+          "hash": "7112501195511271101",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/403.component.ts",
+          "hash": "10692502164630250774",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/404.component.ts",
+          "hash": "13020134955812420139",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/500.component.ts",
+          "hash": "13986611432574440234",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/login/login.component.html",
+          "hash": "3779634981317587997"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/login/login.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/login/login.component.ts",
+          "hash": "2030033195596821679",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/register/register.component.html",
+          "hash": "11144453615707729233"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/register/register.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/sessions/register/register.component.ts",
+          "hash": "8513943196525339529",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/data.service.ts",
+          "hash": "7172749827439285887",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/edit/edit.component.html",
+          "hash": "9506975800546151947"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/edit/edit.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/edit/edit.component.ts",
+          "hash": "11223990055054226980",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/kitchen-sink.component.html",
+          "hash": "15267234786189910405"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/kitchen-sink.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/kitchen-sink.component.ts",
+          "hash": "12104914464002096485",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.component.html",
+          "hash": "7814489525133251096"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.component.scss",
+          "hash": "8345606494509249970"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.component.ts",
+          "hash": "2391893406131439127",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.service.ts",
+          "hash": "1539041227164930450",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/tables/tables.routes.ts",
+          "hash": "12819902690570468138",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-grid/css-grid.component.html",
+          "hash": "18309079675951521299"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-grid/css-grid.component.scss",
+          "hash": "766826420174060575"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-grid/css-grid.component.ts",
+          "hash": "3905297198337119063",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-helpers/css-helpers.component.html",
+          "hash": "5272117648689294815"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-helpers/css-helpers.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/css-helpers/css-helpers.component.ts",
+          "hash": "11305366739101678651",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/routes/utilities/utilities.routes.ts",
+          "hash": "9485916422240604131",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/breadcrumb/breadcrumb.component.html",
+          "hash": "12263877520804451968"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/breadcrumb/breadcrumb.component.scss",
+          "hash": "6728485297419393727"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/breadcrumb/breadcrumb.component.ts",
+          "hash": "2020560140456510522",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/error-code/_long-shadow.scss",
+          "hash": "52695815209346433"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/error-code/error-code.component.html",
+          "hash": "761723673306268177"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/error-code/error-code.component.scss",
+          "hash": "17150693503181024855"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/error-code/error-code.component.ts",
+          "hash": "663164885691715210",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/index.ts",
+          "hash": "16511224206437597709"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/page-header/page-header.component.html",
+          "hash": "9903378333257421180"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/page-header/page-header.component.scss",
+          "hash": "14185408334859221371"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/components/page-header/page-header.component.ts",
+          "hash": "10017199357962926693",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/directives/disable-control.directive.ts",
+          "hash": "12381832752855449769",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/directives/index.ts",
+          "hash": "6573500977042832441"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/in-mem/in-mem-data.service.spec.ts",
+          "hash": "3768138715328043886",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/in-mem/in-mem-data.service.ts",
+          "hash": "13870234953539668874",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/index.ts",
+          "hash": "2833906892824971271"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/interfaces/index.ts",
+          "hash": "1039897017157410387",
+          "deps": [
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/pipes/index.ts",
+          "hash": "15496490172603811190"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/pipes/safe-url.pipe.ts",
+          "hash": "14942670589849617941",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/pipes/to-observable.pipe.ts",
+          "hash": "4304116070643465410",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/services/directionality.service.ts",
+          "hash": "1873344068815958752",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/services/index.ts",
+          "hash": "2261246533474460788"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/services/message.service.ts",
+          "hash": "11998594777432156187",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/services/paginator-i18n.service.ts",
+          "hash": "7843928202774606251",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/services/storage.service.ts",
+          "hash": "15796326979534447100",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/utils/colors.ts",
+          "hash": "6956949984842711342"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/utils/icons.ts",
+          "hash": "4887761261082671461"
+        },
+        {
+          "file": "apps/ng-matero/src/app/shared/utils/index.ts",
+          "hash": "8845969978314409681"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/admin-layout/admin-layout.component.html",
+          "hash": "481687118531647705"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/admin-layout/admin-layout.component.scss",
+          "hash": "3225459586651866313"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/admin-layout/admin-layout.component.ts",
+          "hash": "3793807764241171230",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/auth-layout/auth-layout.component.html",
+          "hash": "17613437295147710021"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/auth-layout/auth-layout.component.scss",
+          "hash": "15389908762931708673"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/auth-layout/auth-layout.component.ts",
+          "hash": "16607872127824228253",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/customizer/customizer.component.html",
+          "hash": "5092233645644883592"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/customizer/customizer.component.scss",
+          "hash": "9582591719719789118"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/customizer/customizer.component.ts",
+          "hash": "13173566404557470698",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/header/header.component.html",
+          "hash": "5893322826954099483"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/header/header.component.scss",
+          "hash": "5398435093394824465"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/header/header.component.ts",
+          "hash": "4672276118696363156",
+          "deps": [
+            "npm:screenfull"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar-notice/sidebar-notice.component.html",
+          "hash": "12237975105573161010"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar-notice/sidebar-notice.component.scss",
+          "hash": "10812004912919014598"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar-notice/sidebar-notice.component.ts",
+          "hash": "16826684117544665059",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar/sidebar.component.html",
+          "hash": "7681739798011260974"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar/sidebar.component.scss",
+          "hash": "13945699045016224283"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar/sidebar.component.ts",
+          "hash": "3438539611741131687",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar/user-panel.component.scss",
+          "hash": "17427014628307834643"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidebar/user-panel.component.ts",
+          "hash": "16953244510136954618",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/nav-accordion-item.directive.ts",
+          "hash": "1977826553489852380",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/nav-accordion-toggle.directive.ts",
+          "hash": "826015216424645778",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/nav-accordion.directive.ts",
+          "hash": "17467620440012254274",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/sidemenu.component.html",
+          "hash": "6992179926660312702"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/sidemenu.component.scss",
+          "hash": "14102367185291601649"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/sidemenu/sidemenu.component.ts",
+          "hash": "10742387742318885884",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:ngx-permissions"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/style/_badge.scss",
+          "hash": "16153968894837831877"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/style/_breakpoints.scss",
+          "hash": "10243517724230258367"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/topmenu/topmenu-panel.component.html",
+          "hash": "10646886932985161048"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/topmenu/topmenu-panel.component.ts",
+          "hash": "12450437117917321928",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:ngx-permissions",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/topmenu/topmenu.component.html",
+          "hash": "5951978343747849298"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/topmenu/topmenu.component.scss",
+          "hash": "2904392341879067454"
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/topmenu/topmenu.component.ts",
+          "hash": "6038962037567802871",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:ngx-permissions",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/widgets/branding.component.ts",
+          "hash": "11042865479264411008",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/widgets/github.component.ts",
+          "hash": "8996843195881941612",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/widgets/notification.component.ts",
+          "hash": "4255376170163270571",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/widgets/translate.component.ts",
+          "hash": "1535766371984892308",
+          "deps": [
+            "npm:@ngx-translate/core"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/app/theme/widgets/user.component.ts",
+          "hash": "13504084313017265466",
+          "deps": [
+            "npm:@ngx-translate/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/environments/environment.prod.ts",
+          "hash": "3347956864228846850"
+        },
+        {
+          "file": "apps/ng-matero/src/environments/environment.ts",
+          "hash": "17957852234383873861"
+        },
+        {
+          "file": "apps/ng-matero/src/index.html",
+          "hash": "2869842881263232676"
+        },
+        {
+          "file": "apps/ng-matero/src/main.ts",
+          "hash": "8060102740304671444",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/styles.scss",
+          "hash": "18034121937919515246"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/_app-theme.scss",
+          "hash": "3341577602759935939"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/_reboot.scss",
+          "hash": "10351311618854394512"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/_themes.scss",
+          "hash": "12503138697822218190"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/colors/_index.scss",
+          "hash": "1543408987765602905"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/colors/_m2-colors.scss",
+          "hash": "7452000046495164661"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/colors/_m3-colors.scss",
+          "hash": "7562899774666382802"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/custom/_index.scss",
+          "hash": "15447222052420870158"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/custom/_material.scss",
+          "hash": "17980133366789577900"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/grid/_grid.scss",
+          "hash": "16592701228258936931"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/grid/_index.scss",
+          "hash": "3298890623268078805"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/grid/_mixins.scss",
+          "hash": "15720773610406072310"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/grid/_variables.scss",
+          "hash": "6321462855407284545"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_alignment.scss",
+          "hash": "1569777436331940448"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_api.scss",
+          "hash": "4416120851644200272"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_border.scss",
+          "hash": "594096886101724306"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_display.scss",
+          "hash": "8078713789059514581"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_flexbox.scss",
+          "hash": "14383981311780654628"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_functions.scss",
+          "hash": "15206127319427831972"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_index.scss",
+          "hash": "4486083369798299701"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_interaction.scss",
+          "hash": "13278050547669911247"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_object.scss",
+          "hash": "10421715898585598016"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_overflow.scss",
+          "hash": "7219938016982190868"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_position.scss",
+          "hash": "6067470424416702285"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_rounded.scss",
+          "hash": "1203525088076864674"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_sizing.scss",
+          "hash": "15699652962334717699"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_spacing.scss",
+          "hash": "5648288292172562567"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_text.scss",
+          "hash": "3424337778807350021"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/helpers/_variables.scss",
+          "hash": "5405042730599439390"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/plugins/_index.scss",
+          "hash": "3322663556927891620"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/plugins/_ngx-formly.scss",
+          "hash": "5344713796180970289"
+        },
+        {
+          "file": "apps/ng-matero/src/styles/plugins/_ngx-toastr.scss",
+          "hash": "7100847512828745012"
+        },
+        {
+          "file": "apps/ng-matero/src/test.ts",
+          "hash": "1418578372435295825",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/ng-matero/src/typings.d.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-matero/tsconfig.app.json",
+          "hash": "8987352910031480231"
+        },
+        {
+          "file": "apps/ng-matero/tsconfig.editor.json",
+          "hash": "6516657394853345897"
+        },
+        {
+          "file": "apps/ng-matero/tsconfig.json",
+          "hash": "4804940060781154047"
+        },
+        {
+          "file": "apps/ng-matero/tsconfig.spec.json",
+          "hash": "6658172359945877284"
+        }
+      ],
+      "ng-matero-e2e": [
+        {
+          "file": "apps/ng-matero-e2e/.eslintrc.json",
+          "hash": "15523834149352881398"
+        },
+        {
+          "file": "apps/ng-matero-e2e/cypress.json",
+          "hash": "2801442973643085884"
+        },
+        {
+          "file": "apps/ng-matero-e2e/project.json",
+          "hash": "15622591512373635638"
+        },
+        {
+          "file": "apps/ng-matero-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/ng-matero-e2e/src/integration/app.spec.ts",
+          "hash": "6500078190906680285"
+        },
+        {
+          "file": "apps/ng-matero-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/ng-matero-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/ng-matero-e2e/src/support/index.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/ng-matero-e2e/tsconfig.json",
+          "hash": "1345882370542358866"
+        }
+      ]
+    }
+  }
+}

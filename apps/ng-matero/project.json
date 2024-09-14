@@ -7,18 +7,35 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
-        "allowedCommonJsDependencies": ["base64-js", "moment", "photoviewer"],
+        "allowedCommonJsDependencies": [
+          "base64-js",
+          "moment",
+          "photoviewer"
+        ],
         "outputPath": "dist/apps/ng-matero",
         "index": "apps/ng-matero/src/index.html",
         "browser": "apps/ng-matero/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/ng-matero/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/ng-matero/src/favicon.ico", "apps/ng-matero/src/assets"],
-        "styles": ["apps/ng-matero/src/styles.scss"],
-        "scripts": ["node_modules/apexcharts/dist/apexcharts.min.js"]
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/ng-matero/public"
+          }
+        ],
+        "styles": [
+          "apps/ng-matero/src/styles.scss"
+        ],
+        "scripts": [
+          "node_modules/apexcharts/dist/apexcharts.min.js"
+        ]
       },
       "configurations": {
         "production": {
@@ -73,7 +90,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/ng-matero"],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/ng-matero"
+      ],
       "options": {
         "jestConfig": "apps/ng-matero/jest.config.ts"
       }
