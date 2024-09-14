@@ -1,0 +1,22 @@
+[NX Daemon Server] - 2024-09-14T01:58:47.106Z - Started listening on: /var/folders/0k/6bsbbx6n0n709mylqcmvjfxh0000gn/T/c69c986c33bd20d376f9/d.sock
+[NX Daemon Server] - 2024-09-14T01:58:47.108Z - [WATCHER]: Subscribed to changes within: /Users/niuzongbin/Projects/@ng-matero/nx-starter (native)
+[NX Daemon Server] - 2024-09-14T01:58:47.111Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-14T01:58:47.112Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-14T01:58:47.114Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-14T01:58:47.116Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-14T01:58:47.117Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-14T01:58:47.117Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-14T01:58:47.118Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-14T01:58:47.119Z - [WATCHER]: Stopping the watcher for /Users/niuzongbin/Projects/@ng-matero/nx-starter (sources)
+[NX Daemon Server] - 2024-09-14T01:58:47.119Z - [WATCHER]: Stopping the watcher for /Users/niuzongbin/Projects/@ng-matero/nx-starter (outputs)
+[NX Daemon Server] - 2024-09-14T02:08:20.428Z - Started listening on: /var/folders/0k/6bsbbx6n0n709mylqcmvjfxh0000gn/T/c69c986c33bd20d376f9/d.sock
+[NX Daemon Server] - 2024-09-14T02:08:20.432Z - [WATCHER]: Subscribed to changes within: /Users/niuzongbin/Projects/@ng-matero/nx-starter (native)
+[NX Daemon Server] - 2024-09-14T02:08:20.437Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-14T02:08:20.439Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-14T02:08:20.441Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-14T02:08:20.443Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-14T02:08:20.444Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-14T02:08:20.444Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-14T02:08:20.445Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-14T02:08:20.445Z - [WATCHER]: Stopping the watcher for /Users/niuzongbin/Projects/@ng-matero/nx-starter (sources)
+[NX Daemon Server] - 2024-09-14T02:08:20.445Z - [WATCHER]: Stopping the watcher for /Users/niuzongbin/Projects/@ng-matero/nx-starter (outputs)
