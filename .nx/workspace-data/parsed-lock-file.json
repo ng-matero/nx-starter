@@ -4054,18 +4054,18 @@
       "type": "npm",
       "name": "npm:@ngx-translate/core",
       "data": {
-        "version": "15.0.0",
+        "version": "16.0.4",
         "packageName": "@ngx-translate/core",
-        "hash": "sha512-Am5uiuR0bOOxyoercDnAA3rJVizo4RRqJHo8N3RqJ+XfzVP/I845yEnMADykOHvM6HkVm4SZSnJBOiz0Anx5BA=="
+        "hash": "sha512-s8llTL2SJvROhqttxvEs7Cg+6qSf4kvZPFYO+cTOY1d8DWTjlutRkWAleZcPPoeX927Dm7ALfL07G7oYDJ7z6w=="
       }
     },
     "npm:@ngx-translate/http-loader": {
       "type": "npm",
       "name": "npm:@ngx-translate/http-loader",
       "data": {
-        "version": "8.0.0",
+        "version": "16.0.1",
         "packageName": "@ngx-translate/http-loader",
-        "hash": "sha512-SFMsdUcmHF5OdZkL1CHEoSAwbP5EbAOPTLLboOCRRoOg21P4GJx+51jxGdJeGve6LSKLf4Pay7BkTwmE6vxYlg=="
+        "hash": "sha512-xJEOUpvs6Zfc8G4cmQmegFOEpfYSoplTHHoisPNrATXjRBjpaKsBaPOXlZsuFUW2XV00s16gIyI4+9z1XkO5bw=="
       }
     },
     "npm:@nodelib/fs.scandir": {
@@ -16002,18 +16002,18 @@
         "hash": "sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w=="
       }
     },
-    "npm:update-browserslist-db": {
+    "npm:update-browserslist-db@1.0.11": {
       "type": "npm",
-      "name": "npm:update-browserslist-db",
+      "name": "npm:update-browserslist-db@1.0.11",
       "data": {
         "version": "1.0.11",
         "packageName": "update-browserslist-db",
         "hash": "sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA=="
       }
     },
-    "npm:update-browserslist-db@1.0.13": {
+    "npm:update-browserslist-db": {
       "type": "npm",
-      "name": "npm:update-browserslist-db@1.0.13",
+      "name": "npm:update-browserslist-db",
       "data": {
         "version": "1.0.13",
         "packageName": "update-browserslist-db",
@@ -24130,6 +24130,16 @@
       "type": "static"
     },
     {
+      "source": "npm:@ngx-translate/core",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngx-translate/http-loader",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
       "source": "npm:@nodelib/fs.scandir",
       "target": "npm:@nodelib/fs.stat",
       "type": "static"
@@ -27536,7 +27546,7 @@
     },
     {
       "source": "npm:browserslist",
-      "target": "npm:update-browserslist-db",
+      "target": "npm:update-browserslist-db@1.0.11",
       "type": "static"
     },
     {
@@ -27556,7 +27566,7 @@
     },
     {
       "source": "npm:browserslist",
-      "target": "npm:update-browserslist-db",
+      "target": "npm:update-browserslist-db@1.0.11",
       "type": "static"
     },
     {
@@ -27576,7 +27586,7 @@
     },
     {
       "source": "npm:browserslist",
-      "target": "npm:update-browserslist-db",
+      "target": "npm:update-browserslist-db@1.0.11",
       "type": "static"
     },
     {
@@ -27596,7 +27606,7 @@
     },
     {
       "source": "npm:browserslist",
-      "target": "npm:update-browserslist-db",
+      "target": "npm:update-browserslist-db@1.0.11",
       "type": "static"
     },
     {
@@ -27616,6 +27626,26 @@
     },
     {
       "source": "npm:browserslist",
+      "target": "npm:update-browserslist-db@1.0.11",
+      "type": "static"
+    },
+    {
+      "source": "npm:browserslist@4.23.0",
+      "target": "npm:caniuse-lite",
+      "type": "static"
+    },
+    {
+      "source": "npm:browserslist@4.23.0",
+      "target": "npm:electron-to-chromium@1.4.693",
+      "type": "static"
+    },
+    {
+      "source": "npm:browserslist@4.23.0",
+      "target": "npm:node-releases",
+      "type": "static"
+    },
+    {
+      "source": "npm:browserslist@4.23.0",
       "target": "npm:update-browserslist-db",
       "type": "static"
     },
@@ -27636,27 +27666,7 @@
     },
     {
       "source": "npm:browserslist@4.23.0",
-      "target": "npm:update-browserslist-db@1.0.13",
-      "type": "static"
-    },
-    {
-      "source": "npm:browserslist@4.23.0",
-      "target": "npm:caniuse-lite",
-      "type": "static"
-    },
-    {
-      "source": "npm:browserslist@4.23.0",
-      "target": "npm:electron-to-chromium@1.4.693",
-      "type": "static"
-    },
-    {
-      "source": "npm:browserslist@4.23.0",
-      "target": "npm:node-releases",
-      "type": "static"
-    },
-    {
-      "source": "npm:browserslist@4.23.0",
-      "target": "npm:update-browserslist-db@1.0.13",
+      "target": "npm:update-browserslist-db",
       "type": "static"
     },
     {
@@ -27676,7 +27686,7 @@
     },
     {
       "source": "npm:browserslist@4.22.2",
-      "target": "npm:update-browserslist-db@1.0.13",
+      "target": "npm:update-browserslist-db",
       "type": "static"
     },
     {
@@ -40525,22 +40535,22 @@
       "type": "static"
     },
     {
-      "source": "npm:update-browserslist-db",
+      "source": "npm:update-browserslist-db@1.0.11",
       "target": "npm:escalade",
       "type": "static"
     },
     {
-      "source": "npm:update-browserslist-db",
+      "source": "npm:update-browserslist-db@1.0.11",
       "target": "npm:picocolors",
       "type": "static"
     },
     {
-      "source": "npm:update-browserslist-db@1.0.13",
+      "source": "npm:update-browserslist-db",
       "target": "npm:escalade",
       "type": "static"
     },
     {
-      "source": "npm:update-browserslist-db@1.0.13",
+      "source": "npm:update-browserslist-db",
       "target": "npm:picocolors",
       "type": "static"
     },

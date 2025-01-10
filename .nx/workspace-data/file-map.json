@@ -17,8 +17,8 @@
     "@ng-matero/extensions-moment-adapter": "^18.0.0",
     "@ngx-formly/core": "^6.3.6",
     "@ngx-formly/material": "^6.3.6",
-    "@ngx-translate/core": "^15.0.0",
-    "@ngx-translate/http-loader": "^8.0.0",
+    "@ngx-translate/core": "^16.0.0",
+    "@ngx-translate/http-loader": "^16.0.0",
     "@nx/angular": "^19.7.3",
     "angular-in-memory-web-api": "~0.18.0",
     "apexcharts": "^3.51.0",
@@ -97,11 +97,11 @@
       },
       {
         "file": ".vscode/extensions.json",
-        "hash": "15904881119927760751"
+        "hash": "10089813540631005990"
       },
       {
         "file": ".vscode/settings.json",
-        "hash": "8990071417759709452"
+        "hash": "18305218997968439503"
       },
       {
         "file": "LICENSE",
@@ -137,7 +137,7 @@
       },
       {
         "file": "package.json",
-        "hash": "3296932297443738877"
+        "hash": "8147145375593246537"
       },
       {
         "file": "tools/tsconfig.tools.json",
@@ -149,7 +149,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "5009174986753087517"
+        "hash": "13589150937806385387"
       }
     ],
     "projectFileMap": {
@@ -188,15 +188,15 @@
         },
         {
           "file": "apps/ng-matero/public/i18n/en-US.json",
-          "hash": "3491205665781756912"
+          "hash": "18012883788616943012"
         },
         {
           "file": "apps/ng-matero/public/i18n/zh-CN.json",
-          "hash": "9592134813155786137"
+          "hash": "3468362555921571591"
         },
         {
           "file": "apps/ng-matero/public/i18n/zh-TW.json",
-          "hash": "15890421603602304090"
+          "hash": "12107282042799692341"
         },
         {
           "file": "apps/ng-matero/public/images/avatar-default.jpg",
@@ -360,11 +360,20 @@
         },
         {
           "file": "apps/ng-matero/src/app/app.config.ts",
-          "hash": "5709984391342393800",
+          "hash": "16692788751438021212",
           "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/router",
+            "npm:@angular/material-moment-adapter",
+            "npm:@angular/material",
+            "npm:@ng-matero/extensions-moment-adapter",
             "npm:@ngx-translate/core",
             "npm:@ngx-translate/http-loader",
-            "npm:ngx-permissions"
+            "npm:angular-in-memory-web-api",
+            "npm:ngx-permissions",
+            "npm:ngx-toastr"
           ]
         },
         {
@@ -380,7 +389,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/authentication/auth.guard.spec.ts",
-          "hash": "15458490455002004554",
+          "hash": "16540376773823941684",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -397,8 +406,10 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/authentication/auth.service.spec.ts",
-          "hash": "1131316393666052730",
+          "hash": "1730714531060073875",
           "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
             "npm:rxjs"
           ]
         },
@@ -477,8 +488,9 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/bootstrap/menu.service.ts",
-          "hash": "3211571692696235624",
+          "hash": "4576064739076099845",
           "deps": [
+            "npm:@angular/core",
             "npm:rxjs"
           ]
         },
@@ -492,8 +504,12 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/bootstrap/settings.service.ts",
-          "hash": "13701052057011174384",
+          "hash": "1011124849683897098",
           "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngx-translate/core",
             "npm:rxjs"
           ]
         },
@@ -514,8 +530,9 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/bootstrap/translate-lang.service.ts",
-          "hash": "5320877581634582978",
+          "hash": "14191169671041883892",
           "deps": [
+            "npm:@angular/core",
             "npm:@ngx-translate/core"
           ]
         },
@@ -536,7 +553,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/interceptors/base-url-interceptor.spec.ts",
-          "hash": "15425189280029747714",
+          "hash": "4121702166369913176",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core"
@@ -552,7 +569,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/interceptors/error-interceptor.spec.ts",
-          "hash": "15899219009820411497",
+          "hash": "10873934512541539112",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -591,15 +608,16 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/interceptors/settings-interceptor.spec.ts",
-          "hash": "10038384466698566826",
+          "hash": "11865698433510315347",
           "deps": [
             "npm:@angular/common",
-            "npm:@angular/core"
+            "npm:@angular/core",
+            "npm:@ngx-translate/core"
           ]
         },
         {
           "file": "apps/ng-matero/src/app/core/interceptors/settings-interceptor.ts",
-          "hash": "18357030197727372775",
+          "hash": "12931280618206665467",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core"
@@ -607,7 +625,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/interceptors/token-interceptor.spec.ts",
-          "hash": "11849185279517058235",
+          "hash": "4799214653251086721",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -624,7 +642,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/core/settings.ts",
-          "hash": "15260672654509612889"
+          "hash": "563700336609157750"
         },
         {
           "file": "apps/ng-matero/src/app/formly-config.ts",
@@ -687,7 +705,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/design/colors/colors.component.ts",
-          "hash": "17657342773667424001",
+          "hash": "17950535054708461943",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core"
@@ -710,7 +728,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/design/icons/icons.component.ts",
-          "hash": "5080211672919718116",
+          "hash": "12443532540807920593",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -726,7 +744,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/datetime/datetime.component.html",
-          "hash": "1169532909822775649"
+          "hash": "5511874099253783549"
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/datetime/datetime.component.scss",
@@ -761,7 +779,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/elements/elements.component.html",
-          "hash": "10052781793723160802"
+          "hash": "11355823030570228750"
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/elements/elements.component.scss",
@@ -802,7 +820,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/select/select.component.html",
-          "hash": "4833870325570223056"
+          "hash": "1010360232956917751"
         },
         {
           "file": "apps/ng-matero/src/app/routes/forms/select/select.component.scss",
@@ -898,7 +916,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/card/card.component.html",
-          "hash": "3466874154735959704"
+          "hash": "16745144127542443982"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/card/card.component.scss",
@@ -914,7 +932,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/checkbox/checkbox.component.html",
-          "hash": "5612915259598013827"
+          "hash": "10650167353465580543"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/checkbox/checkbox.component.scss",
@@ -947,7 +965,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/datepicker/datepicker.component.html",
-          "hash": "6112356574697581193"
+          "hash": "5836201774194493594"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/datepicker/datepicker.component.scss",
@@ -1033,7 +1051,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/form-field/form-field.component.html",
-          "hash": "8335398189175377416"
+          "hash": "11931990887333810163"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/form-field/form-field.component.scss",
@@ -1100,7 +1118,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/list/list.component.html",
-          "hash": "17996754519809504492"
+          "hash": "3388526974902986506"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/list/list.component.scss",
@@ -1139,7 +1157,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/paginator/paginator.component.html",
-          "hash": "2229832143721559393"
+          "hash": "13814461894247249498"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/paginator/paginator.component.scss",
@@ -1156,7 +1174,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/progress-bar/progress-bar.component.html",
-          "hash": "17087935010692016874"
+          "hash": "2971642372851207882"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/progress-bar/progress-bar.component.scss",
@@ -1172,7 +1190,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/progress-spinner/progress-spinner.component.html",
-          "hash": "5101305636281830747"
+          "hash": "3990713942880141125"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/progress-spinner/progress-spinner.component.scss",
@@ -1413,7 +1431,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/table/table.component.html",
-          "hash": "3637708025628919284"
+          "hash": "3754905460122988720"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/table/table.component.scss",
@@ -1460,7 +1478,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/tree/tree.component.html",
-          "hash": "12645119969125668105"
+          "hash": "15597799078536017799"
         },
         {
           "file": "apps/ng-matero/src/app/routes/material/tree/tree.component.scss",
@@ -1554,7 +1572,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/profile/layout/layout.component.html",
-          "hash": "3423568303753518599"
+          "hash": "3358923497929957022"
         },
         {
           "file": "apps/ng-matero/src/app/routes/profile/layout/layout.component.scss",
@@ -1592,7 +1610,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/profile/settings/settings.component.html",
-          "hash": "14691103469596781227"
+          "hash": "7165351411032200198"
         },
         {
           "file": "apps/ng-matero/src/app/routes/profile/settings/settings.component.scss",
@@ -1685,7 +1703,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/kitchen-sink.component.html",
-          "hash": "15267234786189910405"
+          "hash": "6636521211768063715"
         },
         {
           "file": "apps/ng-matero/src/app/routes/tables/kitchen-sink/kitchen-sink.component.scss",
@@ -1700,7 +1718,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.component.html",
-          "hash": "7814489525133251096"
+          "hash": "3916010313625190234"
         },
         {
           "file": "apps/ng-matero/src/app/routes/tables/remote-data/remote-data.component.scss",
@@ -1874,8 +1892,9 @@
         },
         {
           "file": "apps/ng-matero/src/app/shared/pipes/to-observable.pipe.ts",
-          "hash": "4304116070643465410",
+          "hash": "12980556041366326315",
           "deps": [
+            "npm:@angular/core",
             "npm:rxjs"
           ]
         },
@@ -1907,7 +1926,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/shared/services/storage.service.ts",
-          "hash": "15796326979534447100",
+          "hash": "10274889030048973346",
           "deps": [
             "npm:@angular/core"
           ]
@@ -1934,8 +1953,13 @@
         },
         {
           "file": "apps/ng-matero/src/app/theme/admin-layout/admin-layout.component.ts",
-          "hash": "3793807764241171230",
+          "hash": "16271437118986182048",
           "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core",
+            "npm:@angular/material",
+            "npm:@angular/router",
+            "npm:ngx-progressbar",
             "npm:rxjs"
           ]
         },
@@ -2112,7 +2136,7 @@
         },
         {
           "file": "apps/ng-matero/src/app/theme/widgets/github.component.ts",
-          "hash": "8996843195881941612",
+          "hash": "7729673364597795637",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/material"
@@ -2128,8 +2152,10 @@
         },
         {
           "file": "apps/ng-matero/src/app/theme/widgets/translate.component.ts",
-          "hash": "1535766371984892308",
+          "hash": "1441989580698030654",
           "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material",
             "npm:@ngx-translate/core"
           ]
         },
